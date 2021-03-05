@@ -1,0 +1,24 @@
+{
+    "name": "samsung/module1",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "steelalex.gk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files":[
+            "src/basic.php",
+            "src/string.php",
+            "src/array.php",
+            "src/function.php"
+        ],
+        "psr-4":{
+            "src\\": "src"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "phpunit/phpunit": "^9.2"
+    }
+}
