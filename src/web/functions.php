@@ -11,6 +11,7 @@
  */
     function getUniqueFirstLetters(array $airports)
     {
+
         $result = array_unique(array_map(function($airport){
             return $airport['name'][0]; 
         }, $airports));

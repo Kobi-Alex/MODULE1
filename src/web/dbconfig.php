@@ -27,7 +27,7 @@
         id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
         name VARCHAR(255) NOT NULL
     )";
-
+    
     if($mysqli->query($sql) === TRUE){
         echo 'Table state created';
         echo PHP_EOL;
