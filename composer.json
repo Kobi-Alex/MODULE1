@@ -9,6 +9,7 @@
     "autoload": {
         "files":[
             "src/basic.php",
+            "src/web/functions.php",
             "src/string.php",
             "src/array.php",
             "src/function.php"
